@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+
+button {
+  background-color: orange;
+  border: 2px solid black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  min-width: 5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+.foodlist {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.foodlist .renderedDiv {
+  width: 15rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid orange;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+hr {
+  width: 20rem;
+}
